@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HelloController {
 	@RequestMapping(method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
-		//todo add comments one more time 2
+		//todo add comments one more time 3
 		model.addAttribute("message", "Hello world!");
 		return "hello";
 	}
